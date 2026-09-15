@@ -1,0 +1,157 @@
+# ========================
+# Operating System Files
+# ========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================
+# Editors / IDEs
+# ========================
+
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+.sts/
+
+# ========================
+# Node.js / Frontend
+# ========================
+node_modules/
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================
+# Java / Gradle / Maven
+# ========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+.settings/
+.project
+.classpath
+.factorypath
+
+# ========================
+# .NET / C#
+# ========================
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.suo
+*.user
+*.userosscache
+*.vspscc
+packages/
+TestResults/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.secret
+
+# ========================
+# Logs
+# ========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Misc
+# ========================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+coverage/
